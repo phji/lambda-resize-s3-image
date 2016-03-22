@@ -10,9 +10,9 @@ libraryDependencies ++= Seq(
   "com.amazonaws" % "aws-lambda-java-core" % "1.1.0",
   "com.amazonaws" % "aws-lambda-java-events" % "1.1.0",
   "com.amazonaws" % "aws-java-sdk-s3" % "1.10.59",
-  "org.im4java" % "im4java" % "1.4.0"
+  "org.im4java" % "im4java" % "1.4.0",
+  "com.typesafe" % "config" % "1.3.0"
 )
 
 // Uncomment to use Akka
 //libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.3.11"
-
